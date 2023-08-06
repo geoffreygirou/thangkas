@@ -30,11 +30,4 @@ export default defineNuxtConfig({
             script: [{ src: "https://js.stripe.com/v3/", defer: true }],
         },
     },
-    nitro: {
-        output: {
-            dir: "~/.dist",
-            serverDir: "~/.dist/server",
-            publicDir: ".dist/public",
-        },
-    },
 });
