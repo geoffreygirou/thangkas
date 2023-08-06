@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: true },
+
     modules: [
         "nuxt-icon",
         "nuxt-lodash",
@@ -27,6 +28,13 @@ export default defineNuxtConfig({
     app: {
         head: {
             script: [{ src: "https://js.stripe.com/v3/", defer: true }],
+        },
+    },
+    nitro: {
+        output: {
+            dir: "~/.dist",
+            serverDir: "~/.dist/server",
+            publicDir: ".dist/public",
         },
     },
 });
