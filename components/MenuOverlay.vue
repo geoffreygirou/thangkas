@@ -5,7 +5,7 @@
     >
         <div class="flex items-center justify-between py-5">
             <NuxtLink to="/" @click="userStore.isMenuOverlay = false">
-                <img width="170" src="/AliExpress-logo.png" />
+                <img width="170" src="/THANGKAExpress-logo.png" />
             </NuxtLink>
 
             <button

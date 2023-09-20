@@ -21,7 +21,7 @@ const login = async (prov) => {
             class="w-full flex items-center justify-center p-5 border-b border-b-gray-300"
         >
             <NuxtLink to="/" class="min-w-[170px]">
-                <img width="170" src="/AliExpress-logo.png" />
+                <img width="170" src="/THANGKAExpress-logo.png" />
             </NuxtLink>
         </div>
 
