@@ -40,3 +40,7 @@ Now run the command to migrate your database tables and run your seed file.
 npx prisma migrate dev --name init
 npx prisma your_db_name seed
 ```
+
+## DEMO
+
+Visit [THANGKAExpress](https://papaya-mermaid-6cc93a.netlify.app)

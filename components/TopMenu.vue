@@ -11,7 +11,7 @@ let isAccountMenu = ref(false);
             <li
                 class="border-r border-r-gray-400 px-3 hover:text-[#FF4646] cursor-pointer"
             >
-                Sell on AliExpress
+                Sell on ThangkaExpress
             </li>
             <li
                 class="border-r border-r-gray-400 px-3 hover:text-[#FF4646] cursor-pointer"
@@ -53,7 +53,7 @@ let isAccountMenu = ref(false);
                 >
                     <div v-if="!user">
                         <div class="text-semibold text-[15px] my-4 px-3">
-                            Welcome to AliExpress!
+                            Welcome to ThangkaExpress!
                         </div>
                         <div class="flex items-center gap-1 px-3 mb-3">
                             <NuxtLink

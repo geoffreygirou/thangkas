@@ -40,7 +40,7 @@ watch(
             >
                 <input
                     class="w-full placeholder-gray-400 text-sm pl-3 focus:outline-none"
-                    placeholder="kitchen accessories"
+                    placeholder="wheel of life"
                     type="text"
                     v-model="searchItem"
                 />
